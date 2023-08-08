@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-
-import { products } from '../products';
+import { products } from '/Users/mansurova/WebstormProjects/angular_example/src/app/products';
 
 @Component({
   selector: 'app-product-list',
@@ -8,6 +7,7 @@ import { products } from '../products';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent {
+
   products = [...products];
 
   share() {
@@ -19,10 +19,3 @@ export class ProductListComponent {
   }
 
 }
-
-
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/

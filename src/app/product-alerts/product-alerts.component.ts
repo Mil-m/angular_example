@@ -1,5 +1,5 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { Product } from '../products';
+import { Product } from '/Users/mansurova/WebstormProjects/angular_example/src/app/products';
 
 @Component({
   selector: 'app-product-alerts',
